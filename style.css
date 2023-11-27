@@ -1,0 +1,120 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+width: 100%;
+background-color: white;
+}
+.container{
+    max-width: 1250px;
+    margin: auto;
+    padding: 0px 32px;
+
+}
+.enter{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+.div_1{
+    width: 200px;
+    padding: 3px 0px;
+
+}
+.div_2{
+    width: 300px;
+    padding: 15px 0px;
+    overflow: hidden;
+}
+.p{
+    color: blue;
+   font-size: 22px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+.ul{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
+ list-style: none;
+ padding-right: 40px;
+}
+li{
+    font-size: 16px;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all 0.5s ease;
+}
+li:hover{
+    color: rgb(70, 70, 70);
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+.header{
+    width: 100%;
+    background-color: white;
+}
+.first{
+    width: 100%;
+    padding: 120px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.div_3{
+    width: 500px;
+   padding: 250px 0px;
+   background: linear-gradient(135deg,rgb(182, 18, 182), blue);
+   border-radius: 70px;
+}
+.div_4{
+    width: 500px;
+  padding: 250px 0px;
+   background: linear-gradient(135deg, blue,rgb(182, 18, 182));
+   border-radius: 70px;
+   margin-right: 50px;
+}
+.section{
+    width: 100%;
+    padding: 80px 0px;
+    background-color:rgb(241, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_5{
+    width: 50%;
+    background: linear-gradient( 130deg, rgb(87, 87, 202),rgb(229, 143, 229));
+    padding: 160px 0px;
+}
+.footer{
+    width: 100%;
+    background-color: white;
+}
+.second{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_6{
+    margin-top: 11px;
+    width: 21%;
+   padding: 10px 0px;
+   background: linear-gradient(135deg,rgb(182, 18, 182), blue);
+}
+.div_7{
+    margin-top: 11px;
+    width: 18%;
+  padding: 10px 0px;
+   background: linear-gradient(135deg, blue,rgb(182, 18, 182));
+}
